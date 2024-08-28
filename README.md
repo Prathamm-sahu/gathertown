@@ -54,6 +54,10 @@ git commit --date="YYYY-MM-DD HH:MM:SS" -m "Your commit message"
 
 Make a live cursor project by ably
 
+To make protected route in next.js
+1. You can check session in each components
+2. You can add middleware in next.js
+
 
 export PORT=3000 && npm run dev
 export DATABASE_URL="prostgres://aviven.io" ---> This is the way to inject .env variables in nodejs application.
@@ -100,6 +104,7 @@ TODO -
 10. Add push notification
 11. Add Channel
 12. Private Channel where user can join this via unique link, Which automatically expires when person joins.
+13. Add Nice loading states for each components
 
 TECHNOLOGIES -
 1. Zod, React-Hook Form
@@ -131,3 +136,5 @@ Addintional Functionality
 5. Edge Runtime vs node runtime, bun runtime.
 6. Honojs, serverless, Connections Pooling
 7. AWS lamda, IAM
+8. Linux, Shell Script
+9. LangChain
